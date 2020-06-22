@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
-import subprocess, smtplib, re
+import subprocess  # run() function for shell commands
+import smtplib     # protocol which handles sending e-mail and routing e-mail between mail servers
+import re          # regural expressions
 
 
 # function that sends an email to itself with a specific message
